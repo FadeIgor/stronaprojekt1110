@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Kontaktowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formularz Kontaktowy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">O nas</a></li>
+                <li class="dropdown">
+                    <a href="index.html#cars" class="dropbtn">Auta</a>
+                    <div class="dropdown-content">
+                        <a href="index.html#car1">Auto 1</a>
+                        <a href="index.html#car2">Auto 2</a>
+                        <a href="index.html#car3">Auto 3</a>
+                    </div>
+                </li>
+                <li><a href="index.html#contact">Kontakt</a></li>
+                <li><a href="formularz.html">Formularz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="form">
+            <h2>Skontaktuj się z nami</h2>
+            <form action="/submit_form" method="post">
+                <label for="name">Imię:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Wiadomość:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="Wyślij">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Strona o Autach. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
