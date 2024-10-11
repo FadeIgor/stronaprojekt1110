@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motoryzacja podstrona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Motoryzacja</h1>
+    </header>
+    <section>
+    <section>
+        <h2>Kraje znane z motoryzacji</h2>
+        <p>Jeśli chodzi o kraje znane z produkcji samochodów, to na pewno trzeba wymienić:</p>
+        <li>Japonia: Toyota, Honda, Nissan</li>
+        <li>Niemcy: BMW, Mercedes-Benz, Audi, Volkswagen</li>
+        <li>Stany Zjednoczone: Ford, Chevrolet, Tesla</li>
+        <li>Włochy: Ferrari, Lamborghini, Fiat</li>
+        <li>Francja: Renault, Peugeot, Citroën</li>
+        <li>Francja: Renault, Peugeot, Citroën</li>
+        <li>Wielka Brytania: Rolls-Royce, Bentley, Aston Martin</li>
+    </section>
+    <section>
+        <h2>Motoryzacja Japońska</h2>
+        <p>Japonia jest znana z produkcji niezawodnych i zaawansowanych technologicznie samochodów. Marka Toyota jest jednym z największych producentów samochodów na świecie.</p>
+    </section>
+    <section>
+        <h2>Motoryzacja Niemiecka</h2>
+        <p>Niemcy są synonimem jakości i precyzji w motoryzacji. Marki takie jak Mercedes-Benz, BMW i Audi są znane na całym świecie za swoje luksusowe i sportowe samochody.</p>
+    </section>
+    <section>
+        <h2>Motoryzacja Amerykańska</h2>
+        <p>Stany Zjednoczone wprowadziły na rynek wiele kultowych samochodów, takich jak Ford Mustang czy Chevrolet Camaro. Amerykańska motoryzacja jest znana z dużych i potężnych samochodów.</p>
+    </section>
+</body>
+</html>
