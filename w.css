@@ -15,10 +15,11 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
     position: relative;
 }
@@ -31,6 +32,7 @@ nav ul li a {
 nav ul li .dropdown-content {
     display: none;
     position: absolute;
+    left: 0; /* Wyrównanie do lewej */
     background-color: #333;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -78,8 +80,6 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
-
   img{
     margin-right: auto;
     margin-left: auto;
