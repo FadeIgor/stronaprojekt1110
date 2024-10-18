@@ -86,3 +86,10 @@ footer {
     max-width: 50%;
     height: auto;
   }
+
+  p {
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+
+  }
